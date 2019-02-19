@@ -49,7 +49,7 @@ get_header(); ?>
                             $text = get_sub_field('text');
                             ?>
 
-                            <div class="col-6 col-sm-3 col-md-2 text-center">
+                            <div class="col-6 col-sm-4 col-md-2 text-center">
                                 <div class="rounded-img mb-2">
                                     <img src="<?php echo $icon['url'] ?>" alt="<?php echo $icon['alt'] ?>" class="w-100">
                                 </div>
