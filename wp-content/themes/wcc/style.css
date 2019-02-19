@@ -20750,6 +20750,11 @@ a:hover {
 .split-cta .b-block, .split-cta .b-block--half, .split-cta .b-block--bottom {
   color: #FFFFFF;
 }
+.split-cta .b-block p, .split-cta .b-block--half p, .split-cta .b-block--bottom p {
+  font-family: "Krub", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
 .split-cta .b-block p a, .split-cta .b-block--half p a, .split-cta .b-block--bottom p a {
   font-size: 18px;
   color: #FFFFFF;
@@ -22498,6 +22503,9 @@ input[type=radio] {
 }
 .split-cta p > a:hover .arrow-circle-right {
   margin-left: 25px;
+}
+.split-cta .pl-2 {
+  padding-left: 0 !important;
 }
 
 .arrow-circle-right {
