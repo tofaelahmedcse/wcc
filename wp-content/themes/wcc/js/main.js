@@ -312,35 +312,16 @@ jQuery(document).ready(function () {
 
     })
 
-    var owl = jQuery('#slider-wrap'),
-
-        owlOptions = {
-            loop: false,
-                margin: 30,
-                smartSpeed: 700,
-                nav: false,
-                items: 1
-        };
-
     if ( jQuery(window).width() < 768 ) {
-        var owlActive = owl.owlCarousel(owlOptions);
-    } else {
-        owl.addClass('off');
-    }
+    
+        $('#slider-wrap').owlCarousel({
+              navigation : false, 
+              slideSpeed : 300,
+              paginationSpeed : 400,
+              items: 1,
 
-    jQuery(window).resize(function() {
-        if ( jQuery(window).width() < 768 ) {
-            if ( jQuery('.owl-carousel').hasClass('off') ) {
-                var owlActive = owl.owlCarousel(owlOptions);
-                owl.removeClass('off');
-            }
-        } else {
-            if ( !jQuery('.owl-carousel').hasClass('off') ) {
-                owl.addClass('off').trigger('destroy.owl.carousel');
-                owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
-            }
+            });
         }
-    });
 
 
 
