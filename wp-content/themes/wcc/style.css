@@ -20982,6 +20982,10 @@ a:hover {
     font-size: 28px;
     line-height: 40px;
   }
+
+  .carousel-block-1 .container h3 {
+    font-size: 26px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .commitment-info h2 {
@@ -23505,6 +23509,9 @@ Our Carrer Page
     position: inherit;
     margin-top: 46px !important;
   }
+  .split-cta .pr-2 {
+    padding-right: 0 !important;
+  }
 
   /* our carrer */
   .benefit-section .row .text-center {
@@ -23556,6 +23563,10 @@ Our Carrer Page
   }
   .world-skill .random-gallary .img-2 {
     min-height: 650px;
+  }
+
+  .benefit-section .row .text-center:nth-child(2) {
+    margin-top: 0;
   }
 }
 @media (max-width: 320px) {
